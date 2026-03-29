@@ -78,10 +78,16 @@ export default {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        "blob-float": {
+          "0%, 100%": { transform: "translateY(0) rotate(0deg)" },
+          "33%": { transform: "translateY(-6px) rotate(2deg)" },
+          "66%": { transform: "translateY(4px) rotate(-1deg)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.3s ease-out",
         "accordion-up": "accordion-up 0.3s ease-out",
+        "blob-float": "blob-float 8s ease-in-out infinite",
       },
     },
   },
