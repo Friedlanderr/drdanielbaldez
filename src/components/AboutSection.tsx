@@ -11,12 +11,11 @@ const AboutSection = () => {
           {/* Text */}
           <div className="lg:col-span-3">
             <SectionReveal>
-              <p className="text-sm font-sans tracking-[0.2em] uppercase text-muted-foreground mb-3">
-                Conheça
-              </p>
-              <h2 className="text-3xl md:text-4xl font-serif font-medium text-foreground mb-8">
+              <h2 className="text-3xl md:text-4xl font-serif font-medium text-foreground mb-2">
                 {about.title}
               </h2>
+              <p className="text-sm font-sans tracking-wide text-muted-foreground mb-1">CRM 23245</p>
+              <p className="text-sm font-sans tracking-wide text-muted-foreground mb-8">RQE 32423</p>
             </SectionReveal>
 
             {about.paragraphs.map((text, i) => (
