@@ -6,11 +6,23 @@ const HeroSection = () => {
   const p = siteData.professional;
 
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center bg-hero-bg overflow-hidden">
-      <div className="container-narrow w-full">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center pt-28 pb-16 lg:pt-32 lg:pb-20">
-          {/* Text column */}
-          <div className="order-2 lg:order-1">
+    <section
+      id="inicio"
+      className="relative min-h-screen flex items-center overflow-hidden"
+    >
+      {/* Background image */}
+      <div className="absolute inset-0">
+        <img
+          src="/images/hero-bg.jpg"
+          alt=""
+          className="w-full h-full object-cover"
+          loading="eager"
+        />
+        <div className="absolute inset-0 bg-background/75" />
+      </div>
+
+      <div className="container-narrow w-full relative z-10">
+        <div className="max-w-2xl pt-28 pb-16 lg:pt-36 lg:pb-24">
             <SectionReveal>
               <p className="text-sm font-sans tracking-[0.2em] uppercase text-muted-foreground mb-4">
                 {p.title}
@@ -54,21 +66,6 @@ const HeroSection = () => {
                 </Button>
               </div>
             </SectionReveal>
-          </div>
-
-          {/* Image column */}
-          <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
-            <SectionReveal delay={0.2}>
-              <div className="relative w-72 h-96 md:w-80 md:h-[28rem] lg:w-[22rem] lg:h-[30rem] rounded-2xl overflow-hidden shadow-lg">
-                <img
-                  src="/images/hero-doctor.jpg"
-                  alt={`${p.name} — ${p.specialty}`}
-                  className="w-full h-full object-cover"
-                  loading="eager"
-                />
-              </div>
-            </SectionReveal>
-          </div>
         </div>
       </div>
     </section>
