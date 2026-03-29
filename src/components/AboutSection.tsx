@@ -11,11 +11,9 @@ const AboutSection = () => {
           {/* Text */}
           <div className="lg:col-span-3">
             <SectionReveal>
-              <h2 className="text-3xl md:text-4xl font-serif font-medium text-foreground mb-2">
+              <h2 className="text-3xl md:text-4xl font-serif font-medium text-foreground mb-8">
                 {about.title}
               </h2>
-              <p className="text-sm font-sans tracking-wide text-muted-foreground mb-1">CRM 23245</p>
-              <p className="text-sm font-sans tracking-wide text-muted-foreground mb-8">RQE 32423</p>
             </SectionReveal>
 
             {about.paragraphs.map((text, i) => (
@@ -25,6 +23,11 @@ const AboutSection = () => {
                 </p>
               </SectionReveal>
             ))}
+
+            <SectionReveal delay={0.3}>
+              <p className="text-sm font-sans tracking-wide text-muted-foreground mb-1">CRM 23245</p>
+              <p className="text-sm font-sans tracking-wide text-muted-foreground">RQE 32423</p>
+            </SectionReveal>
           </div>
 
           {/* Photo */}
@@ -41,23 +44,6 @@ const AboutSection = () => {
             </SectionReveal>
           </div>
         </div>
-
-        {/* Highlights */}
-        <SectionReveal delay={0.3}>
-          <div className="mt-16 grid sm:grid-cols-2 lg:grid-cols-5 gap-6">
-            {about.highlights.map((item, i) => (
-              <div
-                key={i}
-                className="bg-section-alt rounded-xl p-6 flex items-start gap-3"
-              >
-                <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-primary flex-shrink-0" />
-                <p className="text-sm font-sans text-foreground leading-relaxed">
-                  {item}
-                </p>
-              </div>
-            ))}
-          </div>
-        </SectionReveal>
       </div>
     </section>
   );
