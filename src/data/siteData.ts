@@ -23,8 +23,9 @@ export const siteData = {
   about: {
     title: "Sobre mim",
     paragraphs: [
-      "Sou Carolina Menezes, médica dermatologista apaixonada por cuidar da pele e da autoestima dos meus pacientes. Acredito que um atendimento de excelência começa pela escuta atenta e pelo respeito à individualidade de cada pessoa.",
-      "Minha prática clínica combina rigor científico com sensibilidade humana. Cada plano de tratamento é construído de forma personalizada, considerando não apenas a queixa principal, mas o contexto de vida, expectativas e bem-estar do paciente como um todo.",
+      "Graduado em Medicina, Psiquiatra pelo Hospital de Clínicas de Porto Alegre (HCPA), Doutor e Pós-Doutor em Psiquiatria e Ciências do Comportamento pela Universidade Federal do Rio Grande do Sul (UFRGS).",
+      "Atualmente, é professor da Universidade Federal do Rio Grande (FURG) e pesquisador do Laboratório de Psiquiatria Molecular do HCPA. É Diretor Científico da Associação de Psiquiatria do Rio Grande do Sul (APRS) e editor da revista científica Trends in Psychiatry in Psychotherapy.",
+      "Tem como principais áreas de interesse: Transtornos de Humor, Neuroprogressão dos Transtornos Mentais, Psicofarmacologia e Metanálises.",
     ],
     highlights: [
       "Atendimento humanizado e acolhedor",
