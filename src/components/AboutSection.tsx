@@ -41,8 +41,7 @@ const AboutSection = () => {
           {/* Photo — organic blob mask */}
           <div className="lg:col-span-2 flex justify-center lg:justify-end">
             <SectionReveal delay={0.2}>
-              <div className="relative w-72 h-80 md:w-80 md:h-96">
-                {/* SVG clip path definition */}
+              <div className="relative w-80 h-[26rem] md:w-[22rem] md:h-[30rem]">
                 <svg className="absolute w-0 h-0" aria-hidden="true">
                   <defs>
                     <clipPath id="blob-clip" clipPathUnits="objectBoundingBox">
@@ -55,7 +54,7 @@ const AboutSection = () => {
                 </svg>
 
                 <div
-                  className="w-full h-full animate-blob-float"
+                  className="w-full h-full"
                   style={{ clipPath: "url(#blob-clip)" }}
                 >
                   <img
