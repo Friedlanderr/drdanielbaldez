@@ -26,7 +26,7 @@ const Header = () => {
       <div className="container-narrow flex items-center justify-between">
         {/* Logo */}
         <a href="#inicio" className="font-serif text-lg md:text-xl font-semibold tracking-tight text-foreground">
-          {siteData.professional.name}
+          Dr. Daniel Baldez
         </a>
 
         {/* Desktop Nav */}
