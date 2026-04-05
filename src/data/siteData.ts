@@ -71,31 +71,30 @@ export const siteData = {
 
   formation: [
     {
-      title: "Doutorado em Dermatologia",
-      institution: "Universidade de São Paulo (USP)",
-      period: "2019 — 2023",
-      description: "Pesquisa em dermatologia clínica e inovação terapêutica.",
-    },
-    {
-      title: "Mestrado em Ciências Médicas",
-      institution: "Universidade Federal de São Paulo (UNIFESP)",
-      period: "2017 — 2019",
-    },
-    {
-      title: "Residência em Dermatologia",
-      institution: "Hospital das Clínicas — FMUSP",
-      period: "2014 — 2017",
-    },
-    {
       title: "Graduação em Medicina",
-      institution: "Faculdade de Medicina da USP",
-      period: "2008 — 2013",
+      institution: "Universidade Federal do Rio Grande do Sul (UFRGS)",
+      period: "2011 — 2017",
     },
     {
-      title: "Fellowship em Dermatologia Estética",
-      institution: "NYU Langone Health — Nova York",
-      period: "2018",
-      description: "Imersão em procedimentos estéticos avançados e tecnologias a laser.",
+      title: "Doutorado em Psiquiatria e Ciências do Comportamento",
+      institution: "Universidade Federal do Rio Grande do Sul (UFRGS)",
+      period: "2016 — 2021",
+      description: "Programa de Pós-Graduação em Psiquiatria e Ciências do Comportamento.",
+    },
+    {
+      title: "Residência Médica em Psiquiatria",
+      institution: "Hospital de Clínicas de Porto Alegre",
+      period: "2021 — 2024",
+    },
+    {
+      title: "Pós-Doutorado",
+      institution: "Universidade Federal do Rio Grande do Sul (UFRGS)",
+      period: "2022 — 2024",
+    },
+    {
+      title: "Professor de Psiquiatria",
+      institution: "Universidade Federal do Rio Grande (FURG)",
+      period: "2025 — Atualmente",
     },
   ],
 
