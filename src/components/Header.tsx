@@ -25,8 +25,8 @@ const Header = () => {
     >
       <div className="container-narrow flex items-center justify-between">
         {/* Logo */}
-        <a href="#inicio" className="font-serif text-lg md:text-xl font-semibold tracking-tight text-foreground">
-          Dr. Daniel Baldez
+        <a href="#inicio" className="font-serif text-lg tracking-tight text-left text-accent-foreground md:text-xl font-bold shadow-none rounded-none">
+          Dr. Daniel Baldez | Psiquiatra e Psicoterapeuta
         </a>
 
 
