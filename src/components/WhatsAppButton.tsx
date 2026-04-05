@@ -1,5 +1,4 @@
 import { siteData } from "@/data/siteData";
-import { MessageCircle } from "lucide-react";
 
 const WhatsAppButton = () => {
   return (
@@ -11,7 +10,7 @@ const WhatsAppButton = () => {
       style={{ backgroundColor: "hsl(142, 70%, 40%)", color: "white" }}
       aria-label="Chame no WhatsApp"
     >
-      <MessageCircle size={22} />
+      
       <span className="font-sans font-bold text-sm">Chame no WhatsApp</span>
     </a>
   );
