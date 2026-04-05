@@ -7,10 +7,12 @@ const WhatsAppButton = () => {
       href={`https://wa.me/${siteData.professional.whatsapp}`}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-6 right-6 z-40 flex items-center justify-center w-14 h-14 rounded-full bg-primary text-primary-foreground shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
-      aria-label="Falar no WhatsApp"
+      className="fixed bottom-6 right-6 z-40 flex items-center gap-2 px-5 h-14 rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
+      style={{ backgroundColor: "hsl(142, 70%, 40%)", color: "white" }}
+      aria-label="Chame no WhatsApp"
     >
-      <MessageCircle size={24} />
+      <MessageCircle size={22} />
+      <span className="font-sans font-bold text-sm">Chame no WhatsApp</span>
     </a>
   );
 };

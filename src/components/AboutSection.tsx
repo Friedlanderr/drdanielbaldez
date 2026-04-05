@@ -36,6 +36,20 @@ const AboutSection = () => {
                 <span>RQE 32423</span>
               </div>
             </SectionReveal>
+
+            <SectionReveal delay={0.4}>
+              <div className="pt-8 flex justify-center lg:justify-start">
+                <a
+                  href={`https://wa.me/${siteData.professional.whatsapp}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-8 h-12 rounded-md font-sans font-bold text-sm tracking-wide uppercase text-white shadow-sm hover:shadow-md transition-all duration-300"
+                  style={{ backgroundColor: "hsl(142, 70%, 40%)" }}
+                >
+                  {siteData.professional.ctaText}
+                </a>
+              </div>
+            </SectionReveal>
           </div>
 
           {/* Photo — organic blob mask */}
