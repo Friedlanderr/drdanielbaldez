@@ -70,7 +70,7 @@ const InfoItem = ({ icon, label, value }: { icon: React.ReactNode; label: string
     <span className="mt-0.5 text-primary">{icon}</span>
     <div>
       <p className="text-xs font-sans tracking-wider uppercase text-muted-foreground mb-1">{label}</p>
-      <p className="text-sm font-sans text-foreground whitespace-pre-line leading-relaxed">{value}</p>
+      <p className="text-sm font-sans text-foreground whitespace-pre-line leading-relaxed font-bold">{value}</p>
     </div>
   </div>
 );
