@@ -1,5 +1,6 @@
 import { siteData } from "@/data/siteData";
 import SectionReveal from "@/components/SectionReveal";
+import { ExternalLink } from "lucide-react";
 
 const FormationSection = () => {
   return (
@@ -33,6 +34,21 @@ const FormationSection = () => {
               </div>
             </SectionReveal>
           ))}
+
+          <SectionReveal delay={0.08 * siteData.formation.length}>
+            <div className="mt-10 flex items-center gap-2 text-sm font-sans text-muted-foreground">
+              <span>Currículo Lattes:</span>
+              <a
+                href="http://lattes.cnpq.br/3649630862886937"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 text-primary hover:text-primary/80 font-medium transition-colors"
+              >
+                Acesse
+                <ExternalLink size={16} />
+              </a>
+            </div>
+          </SectionReveal>
         </div>
       </div>
     </section>
