@@ -21,20 +21,15 @@ const FormationSection = () => {
                 {/* Timeline dot */}
                 <div className="absolute left-0 top-1 w-2.5 h-2.5 rounded-full bg-primary -translate-x-[5.5px]" />
 
-                <p className="text-xs font-sans tracking-wider uppercase text-muted-foreground mb-1">
-                  {item.period}
-                </p>
                 <h3 className="text-base md:text-lg font-serif font-medium text-foreground mb-1">
                   {item.title}
                 </h3>
+                <p className="text-xs font-sans tracking-wider uppercase text-muted-foreground mb-1">
+                  {item.period}
+                </p>
                 <p className="text-sm font-sans text-muted-foreground">
                   {item.institution}
                 </p>
-                {item.description && (
-                  <p className="text-sm font-sans text-muted-foreground/80 mt-2 leading-relaxed">
-                    {item.description}
-                  </p>
-                )}
               </div>
             </SectionReveal>
           ))}
