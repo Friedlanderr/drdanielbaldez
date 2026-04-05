@@ -5,10 +5,18 @@ import { Menu, X } from "lucide-react";
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
+  const [hidden, setHidden] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 40);
+    const onScroll = () => {
+      setScrolled(window.scrollY > 40);
+      const aboutSection = document.getElementById("sobre");
+      if (aboutSection) {
+        const rect = aboutSection.getBoundingClientRect();
+        setHidden(rect.top <= 80);
+      }
+    };
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
@@ -18,9 +26,11 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled
-          ? "bg-background/20 backdrop-blur-md shadow-sm py-3"
-          : "bg-transparent py-5"
+        hidden
+          ? "-translate-y-full opacity-0"
+          : scrolled
+            ? "bg-background/20 backdrop-blur-md shadow-sm py-3"
+            : "bg-transparent py-5"
       }`}
     >
       <div className="container-narrow flex items-center justify-between">
