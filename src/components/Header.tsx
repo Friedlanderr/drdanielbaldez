@@ -29,18 +29,6 @@ const Header = () => {
           Dr. Daniel Baldez
         </a>
 
-        {/* Desktop Nav */}
-        <nav className="hidden lg:flex items-center gap-8">
-          {siteData.nav.map((item) => (
-            <a
-              key={item.href}
-              href={item.href}
-              className="text-sm font-sans text-muted-foreground hover:text-foreground transition-colors duration-300 tracking-wide"
-            >
-              {item.label}
-            </a>
-          ))}
-        </nav>
 
         {/* CTA Desktop */}
         <div className="hidden lg:block">
@@ -69,16 +57,6 @@ const Header = () => {
       {mobileOpen && (
         <div className="lg:hidden bg-background/98 backdrop-blur-lg border-t border-border">
           <nav className="container-narrow flex flex-col gap-1 py-6">
-            {siteData.nav.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                onClick={handleNavClick}
-                className="py-3 text-base font-sans text-muted-foreground hover:text-foreground transition-colors"
-              >
-                {item.label}
-              </a>
-            ))}
             <div className="pt-4">
               <Button variant="cta" size="lg" className="w-full" asChild>
                 <a
