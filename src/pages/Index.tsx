@@ -7,7 +7,7 @@ import FormationSection from "@/components/FormationSection";
 import FaqSection from "@/components/FaqSection";
 import ContactSection from "@/components/ContactSection";
 import FooterSection from "@/components/FooterSection";
-import WhatsAppButton from "@/components/WhatsAppButton";
+
 
 const Index = () => {
   return (
@@ -23,7 +23,7 @@ const Index = () => {
         <ContactSection />
       </main>
       <FooterSection />
-      <WhatsAppButton />
+      
     </>
   );
 };
