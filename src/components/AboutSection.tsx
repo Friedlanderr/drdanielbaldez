@@ -55,26 +55,13 @@ const AboutSection = () => {
           {/* Photo — organic blob mask */}
           <div className="lg:col-span-2 flex justify-center lg:justify-end">
             <SectionReveal delay={0.2}>
-              <div className="relative w-96 h-[30rem] md:w-[26rem] md:h-[36rem]">
-                <svg className="absolute w-0 h-0" aria-hidden="true">
-                  <defs>
-                    <clipPath id="blob-clip" clipPathUnits="objectBoundingBox">
-                      <path
-                        d={blobPath}
-                        transform="translate(0.5,0.5) scale(0.0058)"
-                      />
-                    </clipPath>
-                  </defs>
-                </svg>
-
-                <div
-                  className="w-full h-full"
-                  style={{ clipPath: "url(#blob-clip)" }}
-                >
+              <div className="relative w-80 h-80 md:w-[24rem] md:h-[24rem]">
+                <div className="w-full h-full rounded-full overflow-hidden">
                   <img
                     src="/images/hero-doctor.jpg"
                     alt="Dr. Daniel Baldez — Psiquiatra e Psicoterapeuta"
-                    className="w-full h-full object-cover object-top"
+                    className="w-full h-full object-cover scale-125"
+                    style={{ objectPosition: "center 15%" }}
                     loading="lazy"
                   />
                 </div>
