@@ -131,7 +131,7 @@ export const siteData = {
     {
       question: "O atendimento é presencial ou online?",
       answer:
-        "Ofereço atendimento presencial no consultório em Porto Alegre e teleconsulta.",
+        "Ofereço atendimentos presenciais em Porto Alegre e Rio Grande, além de teleconsultas.",
     },
     {
       question: "Qual a duração média de uma consulta?",
