@@ -146,7 +146,7 @@ export const siteData = {
     {
       question: "Onde fica o consultório?",
       answer:
-        "Atualmente atendo em duas localidades.",
+        "Atualmente atendo em duas localidades.\n\nConsultórios:\nMenino Deus - Av. Getúlio Vargas, 901\nMoinhos - Av. xxx, 102",
     },
     {
       question: "Como posso agendar uma consulta?",
