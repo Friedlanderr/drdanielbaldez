@@ -36,7 +36,7 @@ const ServicesSection = () => {
                 <h3 className="text-xl md:text-2xl font-serif font-medium text-foreground mb-4">
                   {pillar.title}
                 </h3>
-                <p className="text-sm md:text-base font-sans text-muted-foreground leading-relaxed text-justify">
+                <p className="text-sm md:text-base font-sans text-muted-foreground leading-relaxed text-right md:text-justify">
                   {pillar.description}
                 </p>
               </div>
@@ -54,7 +54,7 @@ const ServicesSection = () => {
             <h3 className="text-2xl md:text-3xl font-serif font-medium text-foreground mb-4">
               Transtornos do Humor
             </h3>
-            <p className="max-w-xl mx-auto text-sm md:text-base font-sans text-muted-foreground leading-relaxed whitespace-pre-line text-justify">
+            <p className="max-w-xl mx-auto text-sm md:text-base font-sans text-muted-foreground leading-relaxed whitespace-pre-line text-right md:text-justify">
               Abordagem especializada no diagnóstico, tratamento e acompanhamento do transtornos do humor, com foco na estabilização do humor, prevenção de recaídas e promoção de qualidade de vida.
               {"\n\n"}
               Tendo como principal foco o transtorno bipolar, depressão maior, depressão de difícil tratamento (DDT), transtorno esquizoafetivo e transtornos de ansiedade
