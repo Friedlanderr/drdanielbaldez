@@ -4,7 +4,7 @@ const FooterSection = () => {
   const p = {
     name: "Dr. Daniel Baldez",
     specialty: "Psiquiatra e Psicoterapeuta",
-    credentials: "CRM 23245 · RQE 32423",
+    credentials: "CREMERS 43674 · RQE 44256",
   };
 
   return (
