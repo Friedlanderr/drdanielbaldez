@@ -35,7 +35,7 @@ const Header = () => {
     >
       <div className="container-narrow flex items-center justify-between">
         {/* Logo */}
-        <a href="#inicio" className="font-serif tracking-tight text-left text-accent-foreground font-bold shadow-none rounded-none flex flex-col leading-tight">
+        <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="font-serif tracking-tight text-left text-accent-foreground font-bold shadow-none rounded-none flex flex-col leading-tight cursor-pointer">
           <span className="text-lg text-[#e9e2d2] md:text-xl">Dr. Daniel Baldez</span>
           <span className="rounded-none border-none text-[sidebar-primary-foreground] md:text-base text-orange-100 font-normal">Psiquiatra e Psicoterapeuta</span>
         </a>
