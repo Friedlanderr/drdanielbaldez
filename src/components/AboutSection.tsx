@@ -56,11 +56,11 @@ const AboutSection = () => {
           <div className="lg:col-span-2 flex justify-center lg:justify-end">
             <SectionReveal delay={0.2}>
               <div className="relative w-80 h-80 md:w-[24rem] md:h-[24rem]">
-                <div className="w-full h-full rounded-full overflow-hidden">
+                <div className="w-full h-full overflow-hidden">
                   <img
                     src="/images/about-doctor.png"
                     alt="Dr. Daniel Baldez — Psiquiatra e Psicoterapeuta"
-                    className="w-full h-full object-cover scale-125"
+                    className="w-full h-full object-cover scale-110"
                     style={{ objectPosition: "center 15%" }}
                     loading="lazy"
                   />
