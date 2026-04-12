@@ -16,7 +16,7 @@ export const siteData = {
     city: "Porto Alegre — RS",
     hours: "Seg a Sex · 9h às 18h",
     modality: "Atendimento presencial e teleconsulta",
-    instagram: "https://instagram.com/dracarolinamenezes",
+    instagram: "https://www.instagram.com/danielpratesbdz/",
     linkedin: "https://linkedin.com/in/dracarolinamenezes",
   },
 
