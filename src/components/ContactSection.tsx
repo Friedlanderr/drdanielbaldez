@@ -20,7 +20,7 @@ const ContactSection = () => {
                 Entre em contato
               </h2>
               <p className="text-base font-sans text-muted-foreground leading-relaxed mb-8 max-w-md">
-                Será um prazer recebê-la. Agende sua consulta ou tire suas dúvidas pelo WhatsApp.
+                Será um prazer recebê-lo. Agende sua consulta ou tire suas dúvidas pelo WhatsApp.
               </p>
             </SectionReveal>
 
