@@ -31,9 +31,9 @@ const AboutSection = () => {
 
             <SectionReveal delay={0.3}>
               <div className="pt-6 flex items-center gap-4 text-xs font-sans tracking-widest uppercase text-muted-foreground/70">
-                <span>CRM 23245</span>
+                <span className="font-bold">CRM 23245</span>
                 <span className="w-px h-3 bg-border" />
-                <span>RQE 32423</span>
+                <span className="font-bold">RQE 32423</span>
               </div>
             </SectionReveal>
 
