@@ -53,7 +53,7 @@ const AboutSection = () => {
           <div className="lg:col-span-2 flex justify-center lg:justify-end">
             <SectionReveal delay={0.2}>
               <img
-                src="/images/about-doctor.png"
+                src={`${import.meta.env.BASE_URL}images/about-doctor.png`}
                 alt="Dr. Daniel Baldez — Psiquiatra e Psicoterapeuta"
                 className="w-full h-auto max-w-md rounded-lg"
                 loading="lazy"
