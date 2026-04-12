@@ -45,16 +45,19 @@ const ContactSection = () => {
                 <InfoItem icon={<Mail size={18} />} label="E-mail" value={p.email} />
                 <InfoItem icon={<MapPin size={18} />} label="Endereço" value={`${p.address}\n${p.city}`} />
                 <InfoItem icon={<Clock size={18} />} label="Horários" value={`${p.hours}\n${p.modality}`} />
-                <div className="flex items-center gap-4 pt-2">
-                  <span className="text-sm font-sans text-muted-foreground">Instagram:</span>
-                  <a
-                    href={p.instagram}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-sm font-sans text-primary hover:text-primary/80 transition-colors duration-300"
-                  >
-                    https://www.instagram.com/danielpratesbdz/
-                  </a>
+                <div className="flex items-start gap-4">
+                  <span className="mt-0.5 text-primary"><Instagram size={18} /></span>
+                  <div>
+                    <p className="text-xs font-sans tracking-wider uppercase text-muted-foreground mb-1 font-bold">Instagram</p>
+                    <a
+                      href={p.instagram}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm font-sans text-foreground hover:text-primary transition-colors duration-300"
+                    >
+                      @danielpratesbdz
+                    </a>
+                  </div>
                 </div>
               </div>
             </SectionReveal>
