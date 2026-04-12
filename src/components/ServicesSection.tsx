@@ -47,13 +47,15 @@ const ServicesSection = () => {
           <div className="relative rounded-2xl overflow-hidden bg-primary/5 border border-primary/15 p-8 md:p-12 text-center">
             <div className="absolute top-0 left-1/2 -translate-x-1/2 w-16 h-[2px] bg-primary rounded-full" />
             <p className="text-xs font-sans tracking-[0.25em] uppercase text-primary mb-4 mt-2">
-              Especialidade principal
+              ESPECIALIDADE
             </p>
             <h3 className="text-2xl md:text-3xl font-serif font-medium text-foreground mb-4">
-              Transtorno Bipolar
+              Transtornos do Humor
             </h3>
-            <p className="max-w-xl mx-auto text-sm md:text-base font-sans text-muted-foreground leading-relaxed">
-              Abordagem especializada no diagnóstico, tratamento e acompanhamento do transtorno bipolar, com foco na estabilização do humor, prevenção de recaídas e promoção de qualidade de vida.
+            <p className="max-w-xl mx-auto text-sm md:text-base font-sans text-muted-foreground leading-relaxed whitespace-pre-line">
+              Abordagem especializada no diagnóstico, tratamento e acompanhamento do transtornos do humor, com foco na estabilização do humor, prevenção de recaídas e promoção de qualidade de vida.
+              {"\n\n"}
+              Tendo como principal foco o transtorno bipolar, depressão maior, depressão de difícil tratamento (DDT) e dos transtornos de ansiedade.
             </p>
           </div>
         </SectionReveal>

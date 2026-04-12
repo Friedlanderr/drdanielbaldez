@@ -23,9 +23,9 @@ export const siteData = {
   about: {
     title: "Sobre mim",
     paragraphs: [
-      "Graduado em Medicina, Psiquiatra pelo Hospital de Clínicas de Porto Alegre (HCPA), Doutor e Pós-Doutor em Psiquiatria e Ciências do Comportamento pela Universidade Federal do Rio Grande do Sul (UFRGS).",
-      "Atualmente, é professor da Universidade Federal do Rio Grande (FURG) e pesquisador do Laboratório de Psiquiatria Molecular do HCPA. É Diretor Científico da Associação de Psiquiatria do Rio Grande do Sul (APRS) e editor da revista científica Trends in Psychiatry in Psychotherapy.",
-      "Tem como principais áreas de interesse: Transtornos de Humor, Neuroprogressão dos Transtornos Mentais, Psicofarmacologia e Metanálises.",
+      "Médico psiquiatra pelo Hospital de Clínicas de Porto Alegre (HCPA/ UFRGS). Possui Doutorado e Pós-Doutor em Psiquiatria pela UFRGS, com ênfase em psicofarmacologia dos transtornos do humor e dos transtornos psicóticos.",
+      "Atualmente, é professor da Universidade Federal do Rio Grande (FURG) e pesquisador do Laboratório de Psiquiatria Molecular do HCPA. É Diretor Científico da Associação de Psiquiatria do Rio Grande do Sul (APRS), editor da revista científica Trends in Psychiatry in Psychotherapy e presidente da Associação Brasileira de Transtorno Bipolar (ISBD Brazil).",
+      "Tem como principais áreas de atuação: Transtornos de Humor, neuroprogressão dos Transtornos Mentais, Psicofarmacologia, Metanálises e transtornos de ansiedade.",
     ],
     highlights: [
       "Atendimento humanizado e acolhedor",
