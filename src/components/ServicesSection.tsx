@@ -1,4 +1,6 @@
 import SectionReveal from "@/components/SectionReveal";
+import { Button } from "@/components/ui/button";
+import { siteData } from "@/data/siteData";
 
 const pillars = [
   {
@@ -57,6 +59,20 @@ const ServicesSection = () => {
               {"\n\n"}
               Tendo como principal foco o transtorno bipolar, depressão maior, depressão de difícil tratamento (DDT) e dos transtornos de ansiedade.
             </p>
+          </div>
+        </SectionReveal>
+
+        <SectionReveal delay={0.35}>
+          <div className="mt-12 text-center">
+            <Button variant="cta" size="lg" asChild>
+              <a
+                href={`https://wa.me/${siteData.professional.whatsapp}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Agendar Consulta
+              </a>
+            </Button>
           </div>
         </SectionReveal>
       </div>
