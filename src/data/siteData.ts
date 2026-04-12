@@ -146,7 +146,7 @@ export const siteData = {
     {
       question: "Onde fica o consultório?",
       answer:
-        "Atualmente atendo em duas localidades.\n\nConsultórios:\nMenino Deus - Av. Getúlio Vargas, 901\nMoinhos - Av. xxx, 102",
+        "Atualmente atendo em duas cidades: \nPorto Alegre – avenida Osvaldo Aranha 1022, sala 905  (edifício Baltimore)\nRio Grande –  Rua Barão de Cotegipe 443, sala 1114 (edifício Porto de Gale)\n",
     },
     {
       question: "Como posso agendar uma consulta?",
