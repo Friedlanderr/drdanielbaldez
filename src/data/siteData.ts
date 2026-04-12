@@ -1,17 +1,17 @@
 export const siteData = {
   professional: {
-    name: "Dra. Carolina Menezes",
-    specialty: "Dermatologia Clínica e Estética",
-    credentials: "CRM/SP 142.857 · RQE 48.291",
+    name: "Dr. Daniel Baldez",
+    specialty: "Psiquiatra",
+    credentials: "CRM/RS 43.674 · RQE 44.256",
     title: "Médica Dermatologista",
     tagline: "Cuidado que une ciência, sensibilidade e resultado.",
     shortBio:
-      "Especialista em dermatologia clínica e estética, com abordagem centrada no paciente, aliando evidência científica a um olhar cuidadoso e individualizado.",
+      "Psiquiatra com abordagem centrada no paciente, aliando evidência científica a um olhar cuidadoso e individualizado.",
     ctaText: "Agendar consulta",
     ctaSecondary: "Conheça minha abordagem",
     whatsapp: "5511999999999",
     phone: "(11) 3456-7890",
-    email: "contato@dracarolinamenezes.com.br",
+    email: "contato@danielbaldez.com.br",
     address: "Av. Getúlio Vargas, 901, Menino Deus",
     city: "Porto Alegre — RS",
     hours: "Seg a Sex · 9h às 18h",
@@ -23,9 +23,9 @@ export const siteData = {
   about: {
     title: "Sobre mim",
     paragraphs: [
-      "Médico psiquiatra pelo Hospital de Clínicas de Porto Alegre (HCPA/ UFRGS). Possui Doutorado e Pós-Doutor em Psiquiatria pela UFRGS, com ênfase em psicofarmacologia dos transtornos do humor e dos transtornos psicóticos.",
-      "Atualmente, é professor da Universidade Federal do Rio Grande (FURG) e pesquisador do Laboratório de Psiquiatria Molecular do HCPA. É Diretor Científico da Associação de Psiquiatria do Rio Grande do Sul (APRS), editor da revista científica Trends in Psychiatry in Psychotherapy e presidente da Associação Brasileira de Transtorno Bipolar (ISBD Brazil).",
-      "Tem como principais áreas de atuação: Transtornos de Humor, neuroprogressão dos Transtornos Mentais, Psicofarmacologia, Metanálises e transtornos de ansiedade.",
+      "Graduado em Medicina, Psiquiatra pelo Hospital de Clínicas de Porto Alegre (HCPA), Doutor e Pós-Doutor em Psiquiatria e Ciências do Comportamento pela Universidade Federal do Rio Grande do Sul (UFRGS).",
+      "Atualmente, é professor da Universidade Federal do Rio Grande (FURG) e pesquisador do Laboratório de Psiquiatria Molecular do HCPA. É Diretor Científico da Associação de Psiquiatria do Rio Grande do Sul (APRS) e editor da revista científica Trends in Psychiatry in Psychotherapy.",
+      "Tem como principais áreas de interesse: Transtornos de Humor, Neuroprogressão dos Transtornos Mentais, Psicofarmacologia e Metanálises.",
     ],
     highlights: [
       "Atendimento humanizado e acolhedor",
@@ -38,7 +38,7 @@ export const siteData = {
 
   services: [
     {
-      title: "Dermatologia Clínica",
+      title: "Psiquiatra",
       description:
         "Diagnóstico e tratamento de doenças da pele, cabelos e unhas, com abordagem completa e baseada em evidências.",
     },
@@ -110,18 +110,15 @@ export const siteData = {
     },
     {
       title: "Escuta atenta",
-      description:
-        "O cuidado começa pela compreensão genuína das necessidades e expectativas.",
+      description: "O cuidado começa pela compreensão genuína das necessidades e expectativas.",
     },
     {
       title: "Abordagem humanizada",
-      description:
-        "Acolhimento, respeito e empatia em cada etapa do atendimento.",
+      description: "Acolhimento, respeito e empatia em cada etapa do atendimento.",
     },
     {
       title: "Atualização constante",
-      description:
-        "Participação ativa em congressos, publicações e formação continuada de excelência.",
+      description: "Participação ativa em congressos, publicações e formação continuada de excelência.",
     },
   ],
 
@@ -134,7 +131,7 @@ export const siteData = {
     {
       question: "O atendimento é presencial ou online?",
       answer:
-        "Ofereço atendimento presencial no consultório em Porto Alegre e teleconsulta.",
+        "Ofereço atendimento presencial no consultório em São Paulo e teleconsulta para acompanhamento e orientações, conforme regulamentação vigente.",
     },
     {
       question: "Qual a duração média de uma consulta?",
