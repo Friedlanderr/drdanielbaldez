@@ -146,7 +146,7 @@ export const siteData = {
     {
       question: "Onde fica o consultório?",
       answer:
-        "O consultório está localizado na Rua Oscar Freire, 1200 — Sala 801, no bairro dos Jardins, São Paulo — SP.",
+        "Atualmente atendo em duas localidades.",
     },
     {
       question: "Como posso agendar uma consulta?",
