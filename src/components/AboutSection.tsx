@@ -1,9 +1,6 @@
 import { siteData } from "@/data/siteData";
 import SectionReveal from "@/components/SectionReveal";
 
-const blobPath =
-  "M47.2,-57.3C59.9,-46.8,68.2,-30.6,71.4,-13.4C74.6,3.8,72.6,22,63.6,35.8C54.6,49.6,38.5,59,21.2,64.2C3.9,69.4,-14.6,70.4,-30.8,64.1C-47,57.8,-60.9,44.2,-68.2,27.6C-75.5,11,-76.2,-8.6,-69.5,-24.5C-62.8,-40.4,-48.7,-52.6,-34,-61.1C-19.3,-69.6,-3.8,-74.4,8.8,-70.1C21.4,-65.8,34.5,-67.8,47.2,-57.3Z";
-
 const AboutSection = () => {
   const { about } = siteData;
 
@@ -52,20 +49,15 @@ const AboutSection = () => {
             </SectionReveal>
           </div>
 
-          {/* Photo — organic blob mask */}
+          {/* Photo */}
           <div className="lg:col-span-2 flex justify-center lg:justify-end">
             <SectionReveal delay={0.2}>
-              <div className="relative w-80 h-80 md:w-[24rem] md:h-[24rem]">
-                <div className="w-full h-full overflow-hidden">
-                  <img
-                    src="/images/about-doctor.png"
-                    alt="Dr. Daniel Baldez — Psiquiatra e Psicoterapeuta"
-                    className="w-full h-full object-cover scale-110"
-                    style={{ objectPosition: "center 15%" }}
-                    loading="lazy"
-                  />
-                </div>
-              </div>
+              <img
+                src="/images/about-doctor.png"
+                alt="Dr. Daniel Baldez — Psiquiatra e Psicoterapeuta"
+                className="w-full h-auto max-w-md rounded-lg"
+                loading="lazy"
+              />
             </SectionReveal>
           </div>
         </div>
