@@ -37,7 +37,7 @@ const Header = () => {
         {/* Logo */}
         <a href="#inicio" className="font-serif tracking-tight text-left text-accent-foreground font-bold shadow-none rounded-none flex flex-col leading-tight">
           <span className="text-lg text-[#e9e2d2] md:text-xl">Dr. Daniel Baldez</span>
-          <span className="rounded-none border-none text-[sidebar-primary-foreground] font-semibold md:text-base text-orange-100">Psiquiatra e Psicoterapeuta</span>
+          <span className="rounded-none border-none text-[sidebar-primary-foreground] md:text-base text-orange-100 font-normal">Psiquiatra e Psicoterapeuta</span>
         </a>
 
 
