@@ -92,6 +92,11 @@ export const siteData = {
       period: "2022 — 2024",
     },
     {
+      title: "Pesquisador do Laboratório de Psiquiatria Molecular",
+      institution: "Hospital de Clínicas de Porto Alegre (HCPA)",
+      period: "2024 — Atualmente",
+    },
+    {
       title: "Professor de Psiquiatria",
       institution: "Universidade Federal do Rio Grande (FURG)",
       period: "2025 — Atualmente",
