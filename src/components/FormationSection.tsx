@@ -10,9 +10,12 @@ const FormationSection = () => {
           <p className="text-sm font-sans tracking-[0.2em] uppercase text-muted-foreground mb-3">
             Trajetória
           </p>
-          <h2 className="text-3xl md:text-4xl font-serif font-medium text-foreground mb-12 md:mb-16">
+          <h2 className="text-3xl md:text-4xl font-serif font-medium text-foreground mb-6">
             Formação Acadêmica
           </h2>
+          <p className="text-base md:text-lg font-sans text-muted-foreground leading-relaxed max-w-3xl mb-12 md:mb-16">
+            Consolidei minha formação na UFRGS, onde o Doutorado e o Pós-Doutorado me permitiram mergulhar profundamente na ciência do comportamento. Especializei-me em transtornos de humor, como a depressão e o transtorno bipolar, utilizando metanálises e dados precisos para compreender como os tratamentos impactam a cognição e o bem-estar. Hoje, aplico esse rigor investigativo no consultório, transformando evidências científicas em um cuidado humano
+          </p>
         </SectionReveal>
 
         <div className="max-w-2xl">
