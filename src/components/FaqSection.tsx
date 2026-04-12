@@ -45,7 +45,7 @@ const FaqSection = () => {
               <p className="text-sm font-sans text-muted-foreground mb-4">
                 Ainda tem dúvidas? Entre em contato.
               </p>
-              <Button variant="cta" size="lg" asChild>
+              <Button variant="cta" size="lg" asChild className="bg-[#1fad53] hover:bg-[#1fad53]/90">
                 <a
                   href={`https://wa.me/${siteData.professional.whatsapp}`}
                   target="_blank"
