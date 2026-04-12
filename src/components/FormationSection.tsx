@@ -14,7 +14,7 @@ const FormationSection = () => {
             Formação Acadêmica
           </h2>
           <p className="text-base md:text-lg font-sans text-muted-foreground leading-relaxed max-w-3xl mb-12 md:mb-16">
-            Consolidei minha formação na UFRGS, onde o Doutorado e o Pós-Doutorado me permitiram mergulhar profundamente na ciência do comportamento. Especializei-me em transtornos de humor, como a depressão e o transtorno bipolar, utilizando metanálise e dados precisos para compreender como os tratamentos impactam a cognição e o bem-estar. Hoje, aplico esse rigor investigativo no consultório, transformando evidências científicas em cuidado humano e preciso.
+            Consolidei minha formação na UFRGS, onde o Doutorado e o Pós-Doutorado me permitiram mergulhar profundamente na ciência do comportamento. Especializei-me em transtornos de humor, como a depressão e o transtorno bipolar, utilizando metanálise e dados precisos para compreender como os tratamentos impactam a cognição e o bem-estar. Hoje, aplico esse rigor investigativo no consultório, transformando evidências científicas em cuidado humano.
           </p>
         </SectionReveal>
 
