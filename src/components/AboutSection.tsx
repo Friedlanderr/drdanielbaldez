@@ -28,9 +28,9 @@ const AboutSection = () => {
 
             <SectionReveal delay={0.3}>
               <div className="pt-6 flex items-center gap-4 text-xs font-sans tracking-widest uppercase text-muted-foreground/70">
-                <span className="text-base font-semibold">CREMERS 43674</span>
+                <span className="text-base font-medium">CREMERS 43674</span>
                 <span className="w-px h-3 bg-border" />
-                <span className="text-base font-semibold">RQE 44256</span>
+                <span className="text-base font-medium">RQE 44256</span>
               </div>
             </SectionReveal>
 
