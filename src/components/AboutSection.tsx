@@ -19,7 +19,7 @@ const AboutSection = () => {
             <div className="space-y-5">
               {about.paragraphs.map((text, i) => (
                 <SectionReveal key={i} delay={0.1 * (i + 1)}>
-                  <p className="text-base md:text-lg font-sans text-muted-foreground leading-[1.8]">
+                  <p className="text-base md:text-lg font-sans text-muted-foreground leading-[1.8] text-justify">
                     {text}
                   </p>
                 </SectionReveal>
@@ -28,9 +28,9 @@ const AboutSection = () => {
 
             <SectionReveal delay={0.3}>
               <div className="pt-6 flex items-center gap-4 text-xs font-sans tracking-widest uppercase text-muted-foreground/70">
-                <span className="font-bold">CRM 23245</span>
+                <span className="text-base font-semibold">CREMERS 43674</span>
                 <span className="w-px h-3 bg-border" />
-                <span className="font-bold">RQE 32423</span>
+                <span className="text-base font-semibold">RQE 44256</span>
               </div>
             </SectionReveal>
 
