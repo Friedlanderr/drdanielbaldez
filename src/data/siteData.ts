@@ -134,7 +134,7 @@ export const siteData = {
     {
       question: "O atendimento é presencial ou online?",
       answer:
-        "Ofereço atendimento presencial no consultório em São Paulo e teleconsulta para acompanhamento e orientações, conforme regulamentação vigente.",
+        "Ofereço atendimento presencial no consultório em Porto Alegre e teleconsulta.",
     },
     {
       question: "Qual a duração média de uma consulta?",
