@@ -136,7 +136,7 @@ export const siteData = {
     {
       question: "Qual a duração média de uma consulta?",
       answer:
-        "As consultas têm duração de 40 a 60 minutos, garantindo tempo adequado para avaliação, orientação e acolhimento.",
+        "As consultas têm duração média de 1 hora, garantindo tempo adequado para avaliação, orientação e acolhimento.",
     },
     {
       question: "Atende convênio?",
