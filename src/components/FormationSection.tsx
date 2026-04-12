@@ -4,7 +4,7 @@ import { ExternalLink } from "lucide-react";
 
 const FormationSection = () => {
   return (
-    <section id="formacao" className="section-padding bg-background">
+    <section id="formacao" className="section-padding bg-[#c3a57f]/[0.24]">
       <div className="container-narrow">
         <SectionReveal>
           <p className="text-sm font-sans tracking-[0.2em] uppercase text-muted-foreground mb-3">

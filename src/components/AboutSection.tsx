@@ -8,7 +8,7 @@ const AboutSection = () => {
   const { about } = siteData;
 
   return (
-    <section id="sobre" className="section-padding bg-background">
+    <section id="sobre" className="section-padding bg-[#c3a57f]/[0.44]">
       <div className="container-narrow">
         <div className="grid lg:grid-cols-5 gap-16 lg:gap-20 items-center">
           {/* Text */}
