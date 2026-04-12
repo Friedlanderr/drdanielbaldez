@@ -151,7 +151,7 @@ export const siteData = {
     {
       question: "Como posso agendar uma consulta?",
       answer:
-        "Você pode agendar sua consulta diretamente pelo WhatsApp, pelo telefone ou pelo formulário de contato aqui no site. Teremos prazer em recebê-la.",
+        "Você pode agendar sua consulta diretamente pelo WhatsApp, pelo telefone ou pelo formulário de contato. Assim que for marcado você receberá uma notificação via google agenda. ",
     },
   ],
 
