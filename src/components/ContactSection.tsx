@@ -46,14 +46,14 @@ const ContactSection = () => {
                 <InfoItem icon={<MapPin size={18} />} label="Endereço" value={`${p.address}\n${p.city}`} />
                 <InfoItem icon={<Clock size={18} />} label="Horários" value={`${p.hours}\n${p.modality}`} />
                 <div className="flex items-center gap-4 pt-2">
+                  <span className="text-sm font-sans text-muted-foreground">Instagram:</span>
                   <a
                     href={p.instagram}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-primary transition-colors duration-300"
-                    aria-label="Instagram"
+                    className="text-sm font-sans text-primary hover:text-primary/80 transition-colors duration-300"
                   >
-                    <Instagram size={20} />
+                    https://www.instagram.com/danielpratesbdz/
                   </a>
                 </div>
               </div>
