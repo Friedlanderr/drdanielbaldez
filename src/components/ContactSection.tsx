@@ -43,7 +43,7 @@ const ContactSection = () => {
               <div className="space-y-6">
                 <InfoItem icon={<Phone size={18} />} label="Telefone" value={p.phone} />
                 <InfoItem icon={<Mail size={18} />} label="E-mail" value={p.email} />
-                <InfoItem icon={<MapPin size={18} />} label="Endereço" value={`${p.address}\n${p.city}`} />
+                <InfoItem icon={<MapPin size={18} />} label="Endereço" value={`• ${p.address}\n• ${p.city}`} />
                 <InfoItem icon={<Clock size={18} />} label="Horários" value={`${p.hours}\n${p.modality}`} />
                 <div className="flex items-start gap-4">
                   <span className="mt-0.5 text-primary"><Instagram size={18} /></span>
