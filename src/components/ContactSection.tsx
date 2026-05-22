@@ -41,7 +41,7 @@ const ContactSection = () => {
           <div>
             <SectionReveal delay={0.1}>
               <div className="space-y-6">
-                <InfoItem icon={<Phone size={18} />} label="Telefone" value={p.phone} />
+                <InfoItem icon={<Phone size={18} />} label="Telefone" value={p.phone} href={`tel:+${p.whatsapp}`} />
                 <InfoItem icon={<Mail size={18} />} label="E-mail" value={p.email} />
                 <InfoItem icon={<MapPin size={18} />} label="Endereço" value={`• ${p.address}\n• ${p.city}`} />
                 <InfoItem icon={<Clock size={18} />} label="Horários" value={`${p.hours}\n${p.modality}`} />
