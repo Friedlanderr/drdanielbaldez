@@ -32,7 +32,7 @@ const AboutSection = () => {
             <div className="space-y-5">
               {about.paragraphs.map((text, i) => (
                 <SectionReveal key={i} delay={0.1 * (i + 1)}>
-                  <p className="text-base md:text-lg font-sans text-muted-foreground leading-[1.8] text-justify">
+                  <p className="text-base md:text-lg font-sans text-muted-foreground leading-[1.8] text-justify whitespace-pre-line">
                     {text}
                   </p>
                 </SectionReveal>
