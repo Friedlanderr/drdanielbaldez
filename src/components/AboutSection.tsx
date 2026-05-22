@@ -17,7 +17,7 @@ const AboutSection = () => {
             </SectionReveal>
 
             {/* Photo (mobile only — shown right after the title) */}
-            <div className="lg:hidden flex justify-center mb-6">
+            <div className="lg:hidden flex justify-center mb-10">
               <SectionReveal delay={0.1}>
                 <img
                   src={`${import.meta.env.BASE_URL}images/about-doctor.png`}
