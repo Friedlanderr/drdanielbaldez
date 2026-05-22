@@ -12,12 +12,12 @@ const AboutSection = () => {
           <div className="lg:col-span-3 space-y-0">
             <SectionReveal>
               <h2 className="text-3xl md:text-4xl font-serif font-medium text-foreground mb-6">
-                {about.title}
+                Dr. Daniel Baldez
               </h2>
             </SectionReveal>
 
             {/* Photo (mobile only — shown right after the title) */}
-            <div className="lg:hidden flex justify-center mb-6">
+            <div className="lg:hidden flex justify-center mb-10">
               <SectionReveal delay={0.1}>
                 <img
                   src={`${import.meta.env.BASE_URL}images/about-doctor.png`}
