@@ -41,7 +41,7 @@ const ContactSection = () => {
           <div>
             <SectionReveal delay={0.1}>
               <div className="space-y-6">
-                <InfoItem icon={<Phone size={18} />} label="Telefone" value={p.phone} />
+                <InfoItem icon={<Phone size={18} />} label="Telefone" value={p.phone} href={`tel:+${p.whatsapp}`} />
                 <InfoItem icon={<Mail size={18} />} label="E-mail" value={p.email} />
                 <InfoItem icon={<MapPin size={18} />} label="Endereço" value={`• ${p.address}\n• ${p.city}`} />
                 <InfoItem icon={<Clock size={18} />} label="Horários" value={`${p.hours}\n${p.modality}`} />
@@ -68,12 +68,18 @@ const ContactSection = () => {
   );
 };
 
-const InfoItem = ({ icon, label, value }: { icon: React.ReactNode; label: string; value: string }) => (
+const InfoItem = ({ icon, label, value, href }: { icon: React.ReactNode; label: string; value: string; href?: string }) => (
   <div className="flex items-start gap-4">
     <span className="mt-0.5 text-primary">{icon}</span>
     <div>
       <p className="text-xs font-sans tracking-wider uppercase text-muted-foreground mb-1 font-bold">{label}</p>
-      <p className="text-sm font-sans text-foreground whitespace-pre-line leading-relaxed">{value}</p>
+      {href ? (
+        <a href={href} className="text-sm font-sans text-foreground whitespace-pre-line leading-relaxed hover:underline">
+          {value}
+        </a>
+      ) : (
+        <p className="text-sm font-sans text-foreground whitespace-pre-line leading-relaxed">{value}</p>
+      )}
     </div>
   </div>
 );
