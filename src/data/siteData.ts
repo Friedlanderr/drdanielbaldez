@@ -23,7 +23,7 @@ export const siteData = {
   about: {
     title: "Sobre mim",
     paragraphs: [
-      "Graduado em Medicina, Psiquiatra pelo Hospital de Clínicas de Porto Alegre (HCPA), Doutor e Pós-Doutor em Psiquiatria e Ciências do Comportamento pela Universidade Federal do Rio Grande do Sul (UFRGS).",
+      "\nGraduado em Medicina, Psiquiatra pelo Hospital de Clínicas de Porto Alegre (HCPA), Doutor e Pós-Doutor em Psiquiatria e Ciências do Comportamento pela Universidade Federal do Rio Grande do Sul (UFRGS).",
       "Atualmente, é professor da Universidade Federal do Rio Grande (FURG), pesquisador do Laboratório de Psiquiatria Molecular do HCPA, presidente da Associação Brasileira de Transtorno Bipolar (ABTB/ ISBD Brazil) e editor da revista científica Trends in Psychiatry in Psychotherapy.",
       "Suas principais áreas de atuação incluem o manejo clínico e psicoterápico do Transtorno Bipolar, Depressão Maior, Depressão de Difícil Tratamento, Transtornos Psicóticos e Transtornos de Ansiedade.",
     ],
