@@ -68,12 +68,18 @@ const ContactSection = () => {
   );
 };
 
-const InfoItem = ({ icon, label, value }: { icon: React.ReactNode; label: string; value: string }) => (
+const InfoItem = ({ icon, label, value, href }: { icon: React.ReactNode; label: string; value: string; href?: string }) => (
   <div className="flex items-start gap-4">
     <span className="mt-0.5 text-primary">{icon}</span>
     <div>
       <p className="text-xs font-sans tracking-wider uppercase text-muted-foreground mb-1 font-bold">{label}</p>
-      <p className="text-sm font-sans text-foreground whitespace-pre-line leading-relaxed">{value}</p>
+      {href ? (
+        <a href={href} className="text-sm font-sans text-foreground whitespace-pre-line leading-relaxed hover:underline">
+          {value}
+        </a>
+      ) : (
+        <p className="text-sm font-sans text-foreground whitespace-pre-line leading-relaxed">{value}</p>
+      )}
     </div>
   </div>
 );
