@@ -16,6 +16,19 @@ const AboutSection = () => {
               </h2>
             </SectionReveal>
 
+            {/* Photo (mobile only — shown right after the title) */}
+            <div className="lg:hidden flex justify-center mb-6">
+              <SectionReveal delay={0.1}>
+                <img
+                  src={`${import.meta.env.BASE_URL}images/about-doctor.png`}
+                  alt="Dr. Daniel Baldez — Psiquiatra e Psicoterapeuta"
+                  className="w-full h-auto max-w-md rounded-lg"
+                  loading="lazy"
+                />
+              </SectionReveal>
+            </div>
+
+
             <div className="space-y-5">
               {about.paragraphs.map((text, i) => (
                 <SectionReveal key={i} delay={0.1 * (i + 1)}>
@@ -50,7 +63,7 @@ const AboutSection = () => {
           </div>
 
           {/* Photo */}
-          <div className="lg:col-span-2 flex justify-center lg:justify-end">
+          <div className="hidden lg:flex lg:col-span-2 justify-center lg:justify-end">
             <SectionReveal delay={0.2}>
               <img
                 src={`${import.meta.env.BASE_URL}images/about-doctor.png`}
@@ -60,6 +73,7 @@ const AboutSection = () => {
               />
             </SectionReveal>
           </div>
+
         </div>
       </div>
     </section>
