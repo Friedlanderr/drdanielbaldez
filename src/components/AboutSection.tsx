@@ -40,7 +40,7 @@ const AboutSection = () => {
             </div>
 
             <SectionReveal delay={0.3}>
-              <div className="pt-6 flex items-center gap-4 text-xs font-sans tracking-widest uppercase text-muted-foreground/70 text-center">
+              <div className="pt-6 flex items-center justify-center lg:justify-start gap-4 text-xs font-sans tracking-widest uppercase text-muted-foreground/70 text-center">
                 <span className="text-base font-medium text-muted-foreground">CREMERS 43674</span>
                 <span className="w-px h-3 bg-border" />
                 <span className="text-base font-medium text-muted-foreground">RQE 44256</span>
