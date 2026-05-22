@@ -12,7 +12,7 @@ const AboutSection = () => {
           <div className="lg:col-span-3 space-y-0">
             <SectionReveal>
               <h2 className="text-3xl md:text-4xl font-serif font-medium text-foreground mb-6">
-                {about.title}
+                Dr. Daniel Baldez
               </h2>
             </SectionReveal>
 
