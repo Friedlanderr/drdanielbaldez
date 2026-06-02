@@ -36,7 +36,7 @@ const ServicesSection = () => {
                 <h3 className="text-xl md:text-2xl font-serif font-medium text-foreground mb-4">
                   {pillar.title}
                 </h3>
-                <p className="text-sm md:text-base font-sans text-muted-foreground leading-relaxed md:text-left text-justify">
+                <p className="text-sm md:text-base font-sans text-muted-foreground leading-relaxed md:text-left text-left">
                   {pillar.description}
                 </p>
               </div>
