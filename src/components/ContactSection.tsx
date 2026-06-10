@@ -8,7 +8,7 @@ const ContactSection = () => {
   const p = siteData.professional;
 
   return (
-    <section id="contato" className="section-padding bg-section-alt">
+    <section id="contato" className="pt-12 md:pt-16 lg:pt-20 pb-20 md:pb-28 lg:pb-32 bg-section-alt">
       <div className="container-narrow">
         <div className="grid md:grid-cols-[1fr,auto] gap-0 md:gap-8 lg:gap-12 items-center">
           {/* Left — heading + info + CTA */}
