@@ -12,7 +12,7 @@ const ContactSection = () => {
       <div className="container-narrow">
         <div className="grid lg:grid-cols-[auto,1fr,auto] gap-12 lg:gap-12 items-center">
           {/* Left — heading + info + CTA */}
-          <div>
+          <div className="order-1">
             <SectionReveal>
               <p className="text-sm font-sans tracking-[0.2em] uppercase text-muted-foreground mb-3">
                 Agende
