@@ -49,15 +49,17 @@ const ContactSection = () => {
             </SectionReveal>
 
             <SectionReveal delay={0.15}>
-              <Button variant="cta" size="xl" asChild>
-                <a
-                  href={`https://wa.me/${p.whatsapp}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {p.ctaText}
-                </a>
-              </Button>
+              <div className="text-center">
+                <Button variant="cta" size="xl" asChild>
+                  <a
+                    href={`https://wa.me/${p.whatsapp}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {p.ctaText}
+                  </a>
+                </Button>
+              </div>
             </SectionReveal>
           </div>
 
