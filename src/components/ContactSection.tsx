@@ -2,6 +2,7 @@ import { siteData } from "@/data/siteData";
 import { Button } from "@/components/ui/button";
 import SectionReveal from "@/components/SectionReveal";
 import { MapPin, Phone, Mail, Clock, Instagram } from "lucide-react";
+import logoAsset from "@/assets/daniel-baldez-logo.jpeg.asset.json";
 
 const ContactSection = () => {
   const p = siteData.professional;
