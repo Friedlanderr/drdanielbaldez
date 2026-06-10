@@ -49,7 +49,7 @@ const ContactSection = () => {
             </SectionReveal>
 
             {/* Desktop CTA */}
-            <div className="hidden lg:block">
+            <div className="hidden md:block">
               <SectionReveal delay={0.15}>
                 <div className="text-center">
                   <Button variant="cta" size="xl" asChild>
@@ -66,22 +66,19 @@ const ContactSection = () => {
             </div>
           </div>
 
-          {/* Middle — negative space */}
-          <div className="hidden lg:block" />
-
           {/* Right — logo */}
-          <div className="flex justify-center lg:justify-end order-2 lg:order-3">
+          <div className="flex justify-center md:justify-end order-2">
             <SectionReveal>
               <img
                 src={logoAsset.url}
                 alt="Logo Dr. Daniel Baldez - Psiquiatra"
-                className="w-[20rem] md:w-[24rem] lg:w-[23.4rem] h-auto"
+                className="w-[20rem] md:w-[18rem] lg:w-[23.4rem] h-auto"
               />
             </SectionReveal>
           </div>
 
           {/* Mobile CTA — after logo */}
-          <div className="lg:hidden order-3 text-center">
+          <div className="md:hidden order-3 text-center">
             <Button variant="cta" size="xl" asChild>
               <a
                 href={`https://wa.me/${p.whatsapp}`}
