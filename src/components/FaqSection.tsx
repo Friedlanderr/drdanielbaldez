@@ -10,7 +10,7 @@ import { Button } from "@/components/ui/button";
 
 const FaqSection = () => {
   return (
-    <section id="faq" className="section-padding bg-background">
+    <section id="faq" className="pt-20 md:pt-28 lg:pt-32 pb-10 md:pb-14 lg:pb-16 bg-background">
       <div className="container-narrow">
         <SectionReveal>
           <p className="text-sm font-sans tracking-[0.2em] uppercase text-muted-foreground mb-3">
