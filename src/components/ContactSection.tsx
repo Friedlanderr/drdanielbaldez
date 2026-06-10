@@ -2,6 +2,7 @@ import { siteData } from "@/data/siteData";
 import { Button } from "@/components/ui/button";
 import SectionReveal from "@/components/SectionReveal";
 import { MapPin, Phone, Mail, Clock, Instagram } from "lucide-react";
+import logoAsset from "@/assets/daniel-baldez-logo.jpeg.asset.json";
 
 const ContactSection = () => {
   const p = siteData.professional;
@@ -12,6 +13,9 @@ const ContactSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
           {/* Left */}
           <div>
+            <SectionReveal>
+              <img src={logoAsset.url} alt="Logo Dr. Daniel Baldez - Psiquiatra" className="w-32 md:w-40 h-auto mb-6 -ml-2" />
+            </SectionReveal>
             <SectionReveal>
               <p className="text-sm font-sans tracking-[0.2em] uppercase text-muted-foreground mb-3">
                 Agende
