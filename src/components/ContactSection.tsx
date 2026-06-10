@@ -14,6 +14,9 @@ const ContactSection = () => {
           {/* Left */}
           <div>
             <SectionReveal>
+              <img src={logoAsset.url} alt="Logo Dr. Daniel Baldez - Psiquiatra" className="w-32 md:w-40 h-auto mb-6 -ml-2" />
+            </SectionReveal>
+            <SectionReveal>
               <p className="text-sm font-sans tracking-[0.2em] uppercase text-muted-foreground mb-3">
                 Agende
               </p>
