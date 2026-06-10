@@ -60,6 +60,20 @@ const ContactSection = () => {
               </Button>
             </SectionReveal>
           </div>
+
+          {/* Middle — negative space */}
+          <div className="hidden lg:block" />
+
+          {/* Right — logo */}
+          <div className="flex justify-center lg:justify-end">
+            <SectionReveal>
+              <img
+                src={logoAsset.url}
+                alt="Logo Dr. Daniel Baldez - Psiquiatra"
+                className="w-48 md:w-64 lg:w-72 h-auto"
+              />
+            </SectionReveal>
+          </div>
         </div>
       </div>
     </section>
