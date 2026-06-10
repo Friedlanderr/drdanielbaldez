@@ -10,12 +10,20 @@ const ContactSection = () => {
   return (
     <section id="contato" className="section-padding bg-section-alt">
       <div className="container-narrow">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20">
-          {/* Left */}
-          <div>
+        <div className="grid lg:grid-cols-[auto,1fr] gap-12 lg:gap-20 items-center">
+          {/* Left — logo */}
+          <div className="flex justify-center lg:justify-start">
             <SectionReveal>
-              <img src={logoAsset.url} alt="Logo Dr. Daniel Baldez - Psiquiatra" className="w-32 md:w-40 h-auto mb-6 -ml-2" />
+              <img
+                src={logoAsset.url}
+                alt="Logo Dr. Daniel Baldez - Psiquiatra"
+                className="w-48 md:w-64 lg:w-72 h-auto"
+              />
             </SectionReveal>
+          </div>
+
+          {/* Right — heading + info + CTA */}
+          <div>
             <SectionReveal>
               <p className="text-sm font-sans tracking-[0.2em] uppercase text-muted-foreground mb-3">
                 Agende
@@ -28,23 +36,8 @@ const ContactSection = () => {
               </p>
             </SectionReveal>
 
-            <SectionReveal delay={0.15}>
-              <Button variant="cta" size="xl" asChild>
-                <a
-                  href={`https://wa.me/${p.whatsapp}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {p.ctaText}
-                </a>
-              </Button>
-            </SectionReveal>
-          </div>
-
-          {/* Right — info */}
-          <div>
             <SectionReveal delay={0.1}>
-              <div className="space-y-6">
+              <div className="space-y-6 mb-8">
                 <InfoItem icon={<Phone size={18} />} label="Telefone" value={p.phone} href={`tel:+${p.whatsapp}`} />
                 <InfoItem icon={<Mail size={18} />} label="E-mail" value={p.email} />
                 <InfoItem icon={<MapPin size={18} />} label="Endereço" value={`• ${p.address}\n• ${p.city}`} />
@@ -64,6 +57,18 @@ const ContactSection = () => {
                   </div>
                 </div>
               </div>
+            </SectionReveal>
+
+            <SectionReveal delay={0.15}>
+              <Button variant="cta" size="xl" asChild>
+                <a
+                  href={`https://wa.me/${p.whatsapp}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {p.ctaText}
+                </a>
+              </Button>
             </SectionReveal>
           </div>
         </div>
