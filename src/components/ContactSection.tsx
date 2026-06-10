@@ -48,19 +48,22 @@ const ContactSection = () => {
               </div>
             </SectionReveal>
 
-            <SectionReveal delay={0.15}>
-              <div className="text-center">
-                <Button variant="cta" size="xl" asChild>
-                  <a
-                    href={`https://wa.me/${p.whatsapp}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {p.ctaText}
-                  </a>
-                </Button>
-              </div>
-            </SectionReveal>
+            {/* Desktop CTA */}
+            <div className="hidden lg:block">
+              <SectionReveal delay={0.15}>
+                <div className="text-center">
+                  <Button variant="cta" size="xl" asChild>
+                    <a
+                      href={`https://wa.me/${p.whatsapp}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {p.ctaText}
+                    </a>
+                  </Button>
+                </div>
+              </SectionReveal>
+            </div>
           </div>
 
           {/* Middle — negative space */}
