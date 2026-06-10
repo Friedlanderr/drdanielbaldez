@@ -10,19 +10,8 @@ const ContactSection = () => {
   return (
     <section id="contato" className="section-padding bg-section-alt">
       <div className="container-narrow">
-        <div className="grid lg:grid-cols-[1fr,auto] gap-12 lg:gap-20 items-center">
-          {/* Right — logo (rendered second on desktop) */}
-          <div className="flex justify-center lg:justify-end order-last">
-            <SectionReveal>
-              <img
-                src={logoAsset.url}
-                alt="Logo Dr. Daniel Baldez - Psiquiatra"
-                className="w-48 md:w-64 lg:w-72 h-auto"
-              />
-            </SectionReveal>
-          </div>
-
-          {/* Right — heading + info + CTA */}
+        <div className="grid lg:grid-cols-[auto,1fr,auto] gap-12 lg:gap-12 items-center">
+          {/* Left — heading + info + CTA */}
           <div>
             <SectionReveal>
               <p className="text-sm font-sans tracking-[0.2em] uppercase text-muted-foreground mb-3">
@@ -69,6 +58,20 @@ const ContactSection = () => {
                   {p.ctaText}
                 </a>
               </Button>
+            </SectionReveal>
+          </div>
+
+          {/* Middle — negative space */}
+          <div className="hidden lg:block" />
+
+          {/* Right — logo */}
+          <div className="flex justify-center lg:justify-end">
+            <SectionReveal>
+              <img
+                src={logoAsset.url}
+                alt="Logo Dr. Daniel Baldez - Psiquiatra"
+                className="w-48 md:w-64 lg:w-72 h-auto"
+              />
             </SectionReveal>
           </div>
         </div>
