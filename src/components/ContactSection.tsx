@@ -10,7 +10,7 @@ const ContactSection = () => {
   return (
     <section id="contato" className="section-padding bg-section-alt">
       <div className="container-narrow">
-        <div className="grid lg:grid-cols-[auto,1fr,auto] gap-12 lg:gap-12 items-center">
+        <div className="grid lg:grid-cols-[auto,1fr,auto] gap-4 lg:gap-12 items-center">
           {/* Left — heading + info + CTA */}
           <div className="order-1">
             <SectionReveal>
@@ -75,7 +75,7 @@ const ContactSection = () => {
               <img
                 src={logoAsset.url}
                 alt="Logo Dr. Daniel Baldez - Psiquiatra"
-                className="w-[15.6rem] md:w-[20.8rem] lg:w-[23.4rem] h-auto"
+                className="w-[20rem] md:w-[24rem] lg:w-[23.4rem] h-auto"
               />
             </SectionReveal>
           </div>
