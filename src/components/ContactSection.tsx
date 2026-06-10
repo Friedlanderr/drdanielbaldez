@@ -72,7 +72,7 @@ const ContactSection = () => {
               <img
                 src={logoAsset.url}
                 alt="Logo Dr. Daniel Baldez - Psiquiatra"
-                className="w-48 md:w-64 lg:w-72 h-auto"
+                className="w-[15.6rem] md:w-[20.8rem] lg:w-[23.4rem] h-auto"
               />
             </SectionReveal>
           </div>
