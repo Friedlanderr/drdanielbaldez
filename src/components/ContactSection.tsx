@@ -10,9 +10,9 @@ const ContactSection = () => {
   return (
     <section id="contato" className="section-padding bg-section-alt">
       <div className="container-narrow">
-        <div className="grid lg:grid-cols-[auto,1fr] gap-12 lg:gap-20 items-center">
-          {/* Left — logo */}
-          <div className="flex justify-center lg:justify-start">
+        <div className="grid lg:grid-cols-[1fr,auto] gap-12 lg:gap-20 items-center">
+          {/* Right — logo (rendered second on desktop) */}
+          <div className="flex justify-center lg:justify-end order-last">
             <SectionReveal>
               <img
                 src={logoAsset.url}
