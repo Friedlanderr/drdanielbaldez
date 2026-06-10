@@ -70,7 +70,7 @@ const ContactSection = () => {
           <div className="hidden lg:block" />
 
           {/* Right — logo */}
-          <div className="flex justify-center lg:justify-end">
+          <div className="flex justify-center lg:justify-end order-2 lg:order-3">
             <SectionReveal>
               <img
                 src={logoAsset.url}
@@ -78,6 +78,19 @@ const ContactSection = () => {
                 className="w-[15.6rem] md:w-[20.8rem] lg:w-[23.4rem] h-auto"
               />
             </SectionReveal>
+          </div>
+
+          {/* Mobile CTA — after logo */}
+          <div className="lg:hidden order-3 text-center">
+            <Button variant="cta" size="xl" asChild>
+              <a
+                href={`https://wa.me/${p.whatsapp}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {p.ctaText}
+              </a>
+            </Button>
           </div>
         </div>
       </div>
