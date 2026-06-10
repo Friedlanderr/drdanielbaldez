@@ -12,7 +12,7 @@ const ContactSection = () => {
       <div className="container-narrow">
         <div className="grid lg:grid-cols-[auto,1fr,auto] gap-12 lg:gap-12 items-center">
           {/* Left — heading + info + CTA */}
-          <div>
+          <div className="order-1">
             <SectionReveal>
               <p className="text-sm font-sans tracking-[0.2em] uppercase text-muted-foreground mb-3">
                 Agende
@@ -48,26 +48,29 @@ const ContactSection = () => {
               </div>
             </SectionReveal>
 
-            <SectionReveal delay={0.15}>
-              <div className="text-center">
-                <Button variant="cta" size="xl" asChild>
-                  <a
-                    href={`https://wa.me/${p.whatsapp}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {p.ctaText}
-                  </a>
-                </Button>
-              </div>
-            </SectionReveal>
+            {/* Desktop CTA */}
+            <div className="hidden lg:block">
+              <SectionReveal delay={0.15}>
+                <div className="text-center">
+                  <Button variant="cta" size="xl" asChild>
+                    <a
+                      href={`https://wa.me/${p.whatsapp}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {p.ctaText}
+                    </a>
+                  </Button>
+                </div>
+              </SectionReveal>
+            </div>
           </div>
 
           {/* Middle — negative space */}
           <div className="hidden lg:block" />
 
           {/* Right — logo */}
-          <div className="flex justify-center lg:justify-end">
+          <div className="flex justify-center lg:justify-end order-2 lg:order-3">
             <SectionReveal>
               <img
                 src={logoAsset.url}
@@ -75,6 +78,19 @@ const ContactSection = () => {
                 className="w-[15.6rem] md:w-[20.8rem] lg:w-[23.4rem] h-auto"
               />
             </SectionReveal>
+          </div>
+
+          {/* Mobile CTA — after logo */}
+          <div className="lg:hidden order-3 text-center">
+            <Button variant="cta" size="xl" asChild>
+              <a
+                href={`https://wa.me/${p.whatsapp}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {p.ctaText}
+              </a>
+            </Button>
           </div>
         </div>
       </div>
