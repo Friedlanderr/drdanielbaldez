@@ -10,7 +10,7 @@ const ContactSection = () => {
   return (
     <section id="contato" className="section-padding bg-section-alt">
       <div className="container-narrow">
-        <div className="grid lg:grid-cols-[auto,1fr,auto] gap-0 lg:gap-12 items-center">
+        <div className="grid md:grid-cols-[1fr,auto] gap-0 md:gap-8 lg:gap-12 items-center">
           {/* Left — heading + info + CTA */}
           <div className="order-1">
             <SectionReveal>
